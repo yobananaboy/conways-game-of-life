@@ -129,9 +129,6 @@ class App extends Component {
     var group;
     if(targetClass.endsWith('main-button')) {
       group = 0;
-      if(targetId === 'random'  && this.state.play === true) {
-        group = '';
-      }
     }
     if(targetClass.endsWith('sub-1')){
       group = 1;
