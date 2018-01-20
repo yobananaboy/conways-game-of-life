@@ -73,7 +73,7 @@ class App extends Component {
       console.log(this.state.emptyGrid);
       this.forceUpdate();
     }
-    if(e.target.id === 'random' && this.state.play === false) {
+    if(e.target.id === 'random') {
       this.setState({
         play: false,
         stop: true,
